@@ -3,7 +3,7 @@
 #include <Wire.h>
 #include <TEA5767.h>
 
-TEA5767 Radio;
+TEA5767 Radio; //Pinout SLC and SDA - Arduino pins A5 and A4
 
 void setup()
 { 
