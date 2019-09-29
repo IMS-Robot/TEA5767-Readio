@@ -8,7 +8,7 @@ TEA5767 Radio; //Pinout SLC and SDA - Arduino pins A5 and A4
 void setup()
 { 
   Wire.begin();
-  Radio.set_frequency(90.1); // pick your own frequency
+  Radio.set_frequency(93.3); // pick your own frequency 90.1 OR 90.5 OR 93.3
 }
 
 void loop()
