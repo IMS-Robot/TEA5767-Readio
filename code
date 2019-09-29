@@ -1,0 +1,16 @@
+// TEA5767 Example arduion test TEA5767-Radio
+
+#include <Wire.h>
+#include <TEA5767.h>
+
+TEA5767 Radio;
+
+void setup()
+{ 
+  Wire.begin();
+  Radio.set_frequency(90.1); // pick your own frequency
+}
+
+void loop()
+{
+}
